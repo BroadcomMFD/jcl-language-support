@@ -27,9 +27,9 @@ The JCL Language Support extension provides an interface in VS Code for develope
 
 ## Software Requirements
 
-You can use the JCL syntax highlighting and linting features features *without* installing any prerequisite software.
+You can use the JCL syntax highlighting and snippets features features *without* installing any prerequisite software.
 
-If you want to use CA JCLCheck reporting features, meet the following requirements:
+If you want to use CA JCLCheck linting and reporting features, meet the following requirements:
 
 - An instance of CA JCLCheck Workload Automation v12.0 is installed and configured on a mainframe system with latest maintenance applied.
 - [Zowe CLI](https://docs.zowe.org/stable/user-guide/cli-installcli.html) is installed on your PC.
@@ -51,7 +51,7 @@ zowe profiles set-default jclcheck <profileName>
 
 ### Advanced configuration
 
-To access extension settings, navigate to **File > Settings**, then select **Extensions > JCL configuration**.
+To access extension settings, navigate to **File > Preferences > Settings**, then select **Extensions > JCL configuration**.
 
 You can configure the following options:
 
