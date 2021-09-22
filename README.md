@@ -33,7 +33,7 @@ If you want to use CA JCLCheck linting and reporting features, meet the followin
 
 - An instance of CA JCLCheck Workload Automation v12.0 is installed and configured on a mainframe system with latest maintenance applied.
 - [Zowe CLI](https://docs.zowe.org/stable/user-guide/cli-installcli.html) is installed on your PC.
-- The [CA JCLCheck Plug-in for Zowe CLI](https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html) is installed to Zowe CLI.
+- The [CA JCLCheck Plug-in for Zowe CLI](https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html) is installed to Zowe CLI.
 
 ## Configuring
 
