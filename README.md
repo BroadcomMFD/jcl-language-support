@@ -12,7 +12,7 @@ JCL Language Support enhances the JCL programming experience of your IDE. The ex
 
 Any file that contains a jobcard or that uses the extension `.jcl` or `.cntl` is recognized as a JCL file.
 
-<img align="left" alt="This extension is part of the Code4z experience" width="60" height="79" style="padding-right:20px;" src="https://github.com/BroadcomMFD/code4z/blob/main/icon3.png?raw=true" />
+<img align="left" alt="This extension is part of the Code4z experience" width="60" height="82" style="padding-right:20px;" src="https://github.com/BroadcomMFD/code4z/blob/main/icon3.png?raw=true" />
 
 JCL Language Support is part of the [Code4z](https://techdocs.broadcom.com/code4z) experience from Broadcom, which offers a modern experience for mainframe application developers. To get started with Code4z, check out our foundational [extension pack](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack).
 
