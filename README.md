@@ -1,8 +1,9 @@
 <div id="header" align="center">
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/BroadcomMFD/jcl-language-support?style=flat-square)](https://github.com/BroadcomMFD/jcl-language-support/issues)
-[![slack](https://img.shields.io/badge/chat-on%20Slack-blue?style=flat-square)](https://join.slack.com/t/che4z/shared_invite/zt-22b0064vn-nBh~Fs9Fl47Prp5ItWOLWw
-)
+[![slack](https://img.shields.io/badge/chat-on%20Slack-blue)](https://join.slack.com/t/che4z/shared_invite/zt-37ewynplx-wCoabaIDxN6Ofm4_XBinZA)
+[![Code4z](https://img.shields.io/badge/Code4z-marketplace-cc092f)](https://marketplace.visualstudio.com/search?term=code4z&target=VSCode)
+
 </div>
 
 # JCL Language Support
@@ -11,17 +12,25 @@ JCL Language Support enhances the JCL programming experience of your IDE. The ex
 
 Any file that contains a jobcard or that uses the extension `.jcl` or `.cntl` is recognized as a JCL file.
 
-## Prerequisites
+<img align="left" alt="This extension is part of the Code4z experience" width="60" height="79" style="padding-right:20px;" src="https://github.com/BroadcomMFD/code4z/blob/main/icon3.png?raw=true" />
 
-There are no client or server-side prerequisites for JCL Language Support.
+JCL Language Support is part of the [Code4z](https://techdocs.broadcom.com/code4z) experience from Broadcom, which offers a modern experience for mainframe application developers. To get started with Code4z, check out our foundational [extension pack](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack).
+
+<br />
+
+## Address Software Requirements
+
+There are no client or server-side software requirements for JCL Language Support.
 
 ## Integrate with Zowe Explorer and JCL Check
 
 Integrate this extension with [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and set up a Zowe profile to enable hyperlinks to PDS members and USS files in your JCL code. You can also use Zowe Explorer to submit jobs, and to access your mainframe data sets containing JCL directly from VS Code.
 
-If you use [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclcheck), we also recommend that you install the JCL Check extension for VS Code. The JCL Check extension enables you to generate reports in VS Code through the JCLCheck REST API.
+If you use [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclcheck), we also recommend that you install the [JCL Check extension for VS Code](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-check-support). The JCL Check extension enables you to generate reports in VS Code through the JCLCheck REST API.
 
-<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v3 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev3/explorer-vs-code/color/zowe-conformant-zowev3-explorer-vs-code-color.png" width=260 height=195 /></a>
+<div align="center">
+<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v3 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev3/explorer-vs-code/color/zowe-conformant-zowev3-explorer-vs-code-color.png" width=208 height=156 /></a>
+</div>
 
 ## Features
 
