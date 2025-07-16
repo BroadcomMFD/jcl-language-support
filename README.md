@@ -18,10 +18,6 @@ JCL Language Support is part of the [Code4z](https://techdocs.broadcom.com/code4
 
 <br />
 
-<div align="center">
-<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v3 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev3/explorer-vs-code/color/zowe-conformant-zowev3-explorer-vs-code-color.png" width=208 height=156 /></a>
-</div>
-
 ## Address Software Requirements
 
 There are no client or server-side software requirements for JCL Language Support.
@@ -31,6 +27,10 @@ There are no client or server-side software requirements for JCL Language Suppor
 Integrate this extension with [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and set up a Zowe profile to enable hyperlinks to PDS members and USS files in your JCL code. You can also use Zowe Explorer to submit jobs, and to access your mainframe data sets containing JCL directly from VS Code.
 
 If you use [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclcheck), we also recommend that you install the [JCL Check extension for VS Code](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-check-support). The JCL Check extension enables you to generate reports in VS Code through the JCLCheck REST API.
+
+<div align="center">
+<a href="https://www.openmainframeproject.org/all-projects/zowe/conformance"><img alt="This extension is Zowe v3 conformant" src="https://artwork.openmainframeproject.org/other/zowe-conformant/zowev3/explorer-vs-code/color/zowe-conformant-zowev3-explorer-vs-code-color.png" width=208 height=156 /></a>
+</div>
 
 ## Features
 
