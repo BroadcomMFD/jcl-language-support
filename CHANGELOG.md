@@ -2,6 +2,11 @@
 
 All notable changes to the JCL Language Support extension are documented in this file.
 
+## 3.0.1 (2025-07-17)
+
+#### Changed
+- Readme update
+
 ## 3.0.0 (2025-06-13)
 
 #### Added
