@@ -12,7 +12,7 @@ JCL Language Support enhances the JCL programming experience of your IDE. The ex
 
 Any file that contains a jobcard or that uses the extension `.jcl` or `.cntl` is recognized as a JCL file.
 
-<img align="left" alt="This extension is part of the Code4z experience" width="60" height="82" style="padding-right:20px;" src="https://github.com/BroadcomMFD/code4z/blob/main/icon3.png?raw=true" />
+<img align="left" alt="This extension is part of the Code4z experience" width="80" height="82" src="https://raw.githubusercontent.com/BroadcomMFD/code4z/refs/heads/main/icon5.png" />
 
 JCL Language Support is part of the [Code4z](https://techdocs.broadcom.com/code4z) experience from Broadcom, which offers a modern experience for mainframe application developers. To get started with Code4z, check out our foundational [extension pack](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack).
 
@@ -24,7 +24,7 @@ There are no client or server-side software requirements for JCL Language Suppor
 
 ## Integrate with Zowe Explorer and JCL Check
 
-Integrate this extension with [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and set up a Zowe profile to enable hyperlinks to PDS members and USS files in your JCL code. You can also use Zowe Explorer to submit jobs, and to access your mainframe data sets containing JCL directly from VS Code.
+Integrate this extension with [Zowe Explorer](https://marketplace.visualstudio.com/items?itemName=Zowe.vscode-extension-for-zowe) and set up a default `zosmf` profile to enable hyperlinks to data sets and USS files in your JCL code. You can also use Zowe Explorer to submit jobs, and to access your mainframe data sets that contain JCL directly from VS Code.
 
 If you use [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclcheck), we also recommend that you install the [JCL Check extension for VS Code](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-check-support). The JCL Check extension enables you to generate reports in VS Code through the JCLCheck REST API.
 
@@ -36,19 +36,29 @@ If you use [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclch
 
 JCL Language Support provides the following JCL syntax awareness features:
 
-### Syntax Highlighting
+### Syntax Highlighting and Coloring
 
-The extension enables syntax highlighting for JCL code.
+The extension enables syntax highlighting for JCL code. Contrasting colors are used in displayed code for ease of identifying and distinguishing name fields, statements, parameters, commands, variables, and comments.
 
-### Syntax Coloring
+Statements that are ignored because they follow a null statement are colored in a darker tone.
 
-Contrasting colors are used in displayed code for ease of identifying and distinguishing keywords, variables and comments.
+### Syntax Check
+
+JCL Language Support checks for errors in names of statements, and enforces column limits and some other rudimentary syntactic rules.
+
+For comprehensive syntactic and semantic linting, we recommend the use of [JCLCheck™ Workload Automation](https://techdocs.broadcom.com/jclcheck) and the [JCL Check extension for VS Code](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-check-support).
+
+### Outline View and Breadcrumbs
+
+The extension enables outline view and the breadcrumbs navigation bar at the top of the edit window, which show the structure of elements within the program and allow easy navigation between them.
 
 ### Hyperlinks
 
-If you use the Zowe Explorer extension and have a Zowe profile configured, PDS members and USS paths display as hyperlinks. This feature is enabled for PDS members specified in the format DSN(MEMBER) in `DSN=` parameters, and USS paths that are specified in `PATH=` parameters. <kbd>CTRL</kbd>+click the hyperlink to open the PDS member or USS folder in Zowe Explorer.
+If you use the Zowe Explorer extension and have a default `zosmf` profile in your team configuration file, data set names and USS paths in the code display as hyperlinks. This feature is enabled for data sets in `DSN=` parameters, and USS paths that are specified in `PATH=` parameters. <kbd>CTRL</kbd>+click the hyperlink to open the data set or USS file in Zowe Explorer.
 
-Only full paths which contain no wildcards display as hyperlinks.
+The hyperlink feature only works on PDS members and sequential files. Other types of data set are still linked but cannot be opened. The hyperlink feature also does not work on wildcarded values.
+
+If a data set name or USS path contains a variable that is defined in the code, the data set or USS file can still be opened with a hyperlink.
 
 ### Code Snippets
 

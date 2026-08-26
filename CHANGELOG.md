@@ -2,18 +2,41 @@
 
 All notable changes to the JCL Language Support extension are documented in this file.
 
-## 3.0.1 (2025-07-17)
+## 3.1.0 (2026-08-26)
+
+#### Added
+
+- Outline view and breadcrumbs
+- Code folding
+- Hyperlinks for sequential data sets
+- Resolution of variables that are defined in the code
+- Contrasting color tone for ignored statements after a null statement
+- Syntax check for statement names and basic rules
+- Language server integration
+
+#### Fixed
+
+- Improved syntax highlighting and coloring
 
 #### Changed
+
+- Readme update
+
+## 3.0.1 (2025-07-21)
+
+#### Changed
+
 - Readme update
 
 ## 3.0.0 (2025-06-13)
 
 #### Added
+
 - Added basic data set and USS path navigation with Zowe Explorer
 - Added automatic JCL language detection
 
 #### Changed
+
 - Removed JCLCheck support
 - Removed ability to lint JCL by manually saving
 - Removed ability to lint JCL by issuing a command
@@ -40,10 +63,3 @@ All notable changes to the JCL Language Support extension are documented in this
 - Add the ability to lint JCL by manually saving
 - Add the ability to generate JCLCheck reports
 - Add the ability to use JCL snippets
-
-
-
-
-
-
-
